@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="android:colorBackground">@color/my_app_background_color</item>
+        <item name="colorError">@color/my_app_error_color</item>
+
+        <!-- New MaterialComponents attributes. -->
+        <item name="colorPrimaryVariant">@color/primary_variant_color</item>
+        <item name="colorSecondaryVariant">@color/secondary_variant_color</item>
+        <item name="colorSurface">@color/surface_color</item>
+        <item name="colorOnPrimary">@color/color_3on_primary</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+        <item name="colorOnError">@color/color_on_error</item>
+        <item name="colorOnSurface">@color/color_on_surface</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.LargeComponent</item>
+
+        <item name="materialButtonStyle">@style/AppTheme.Button</item>
+
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/secondary_color</item>
+        <item name="android:textColor">@color/color_on_secondary</item>
+    </style>
+
+    <style name="ShapeAppearance.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <color name="color_on_primary" />
+    <color name="color_on_error">#fff</color>
+    <color name="color_on_surface">#000</color>
+</resources>

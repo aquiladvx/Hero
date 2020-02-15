@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "236661682075",
+    "firebase_url": "https://kinit-18aql.firebaseio.com",
+    "project_id": "kinit-18aql",
+    "storage_bucket": "kinit-18aql.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236661682075:android:5b7cbdea6e2db76d8dfb3e",
+        "android_client_info": {
+          "package_name": "debcomp.aql.kinit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236661682075-26ctqmhiosi39hlqcddalqs446p61fdc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "debcomp.aql.kinit",
+            "certificate_hash": "1744117dd7e510a56b6590dc59c5ca7e0bb02c55"
+          }
+        },
+        {
+          "client_id": "236661682075-jttbsl20d2a2jts1tpc3ku5466tj6dlq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBotCdN6LUzTgazWXRMqa-S7V06AREfV9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236661682075-jttbsl20d2a2jts1tpc3ku5466tj6dlq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
